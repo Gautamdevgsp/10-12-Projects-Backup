@@ -1,0 +1,20 @@
+class Booking {
+  id = "";
+  userId = "";
+  userName = "";
+  email = "";
+  contact = "";
+  tableId = "";
+  tableNumber = "";
+  bookingDate = "";
+  startTime = "";
+  endTime = "";
+  numberOfGuests = "";
+  totalHours = "";
+  totalAmount = "";
+  paymentStatus = "Pending";
+  bookingStatus = "Pending";
+  razorpayPaymentId = "";
+  createdAt = null;
+}
+export default Booking;
