@@ -1,0 +1,364 @@
+/* ===== Page Header Banner (matches template dark sections) ===== */
+.page_banner {
+  width: 100%;
+  float: left;
+  background-color: #363636;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.page_banner h1 {
+  font-size: 36px;
+  color: #fefefd;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.page_banner p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+  margin: 0;
+}
+
+/* ===== Form Wrapper (white card matching template gallery_box) ===== */
+.form_wrap {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 6px 6px #f4f3f2;
+  margin-bottom: 30px;
+}
+
+.form_wrap h3 {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #3b3b3b;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* ===== send_bt also works with button elements ===== */
+.send_bt button {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #fefefd;
+  background-color: #fe2929;
+  padding: 12px;
+  margin-top: 35px;
+  display: block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.send_bt button:hover {
+  color: #ffffff;
+  background-color: #d02525;
+}
+
+/* ===== Form inputs with light border ===== */
+input.mail_text,
+select.mail_text,
+textarea.mail_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #2a2a2c;
+  border: 1px solid #d0d0d0 !important;
+  background-color: #ffffff;
+  padding: 11px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input.mail_text:focus,
+select.mail_text:focus,
+textarea.mail_text:focus {
+  border-color: #fe5b29 !important;
+  outline: none;
+}
+
+input.mail_text::placeholder,
+select.mail_text::placeholder,
+textarea.mail_text::placeholder {
+  color: #aaa;
+}
+
+textarea.mail_text {
+  height: 110px;
+  resize: vertical;
+}
+
+/* ===== Stat cards for dashboard ===== */
+.stat_card {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 6px 6px #f4f3f2;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.stat_card h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #3b3b3b;
+  padding-bottom: 5px;
+}
+
+.stat_card p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+/* ===== Vehicle card ===== */
+.vehicle_card {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 6px 6px #f4f3f2;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.vehicle_card .thumb {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vehicle_card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vehicle_card .place_info {
+  width: 100%;
+  padding: 20px 20px 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.vehicle_card .place_info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f2e2d;
+  padding-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.vehicle_card .place_info p {
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vehicle_card .prise {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fe5b29;
+  white-space: nowrap;
+}
+
+.vehicle_card .rating_days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.vehicle_card .days {
+  color: #888;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vehicle_card .card_action {
+  margin-top: auto;
+}
+
+/* ===== Vehicle detail section ===== */
+.single_destination_details {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  box-shadow: 0px 0px 6px 6px #f4f3f2;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.single_destination_details .thumb {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.single_destination_details .thumb img {
+  width: 100%;
+}
+
+/* ===== Table wrapper for admin tables ===== */
+.table_wrap {
+  width: 100%;
+  float: left;
+  overflow-x: auto;
+}
+
+/* ===== Action buttons matching template ===== */
+.action_btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fe5b29;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.action_btn:hover {
+  background-color: #363636;
+  color: #fff;
+  text-decoration: none;
+}
+
+.action_btn_outline {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fe5b29;
+  background: transparent;
+  border: 1px solid #fe5b29;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.action_btn_outline:hover {
+  background-color: #fe5b29;
+  color: #fff;
+  text-decoration: none;
+}
+
+.action_btn_sm {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+/* ===== Category filter buttons ===== */
+.filter_btn {
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 3px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fe5b29;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.filter_btn:hover,
+.filter_btn.active {
+  background-color: #363636;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ===== Loader overlay ===== */
+.loader_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* ===== Status badges ===== */
+.status_badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.status_badge.approved,
+.status_badge.active,
+.status_badge.paid {
+  background: #28a745;
+}
+
+.status_badge.pending {
+  background: #ffc107;
+  color: #333;
+}
+
+.status_badge.rejected,
+.status_badge.inactive {
+  background: #dc3545;
+}
+
+/* ===== Responsive extras ===== */
+@media (max-width: 991px) {
+  .page_banner h1 {
+    font-size: 28px;
+  }
+  .stat_card h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page_banner {
+    padding: 30px 0;
+  }
+  .page_banner h1 {
+    font-size: 24px;
+  }
+  .form_wrap {
+    padding: 15px;
+  }
+  .single_destination_details {
+    padding: 15px;
+  }
+}
